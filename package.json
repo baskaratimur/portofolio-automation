@@ -1,0 +1,31 @@
+{
+  "name": "script_otomet",
+  "version": "1.0.0",
+  "description": "Enterprise Test Automation Framework (API & UI) with Playwright & TypeScript",
+  "main": "index.js",
+  "scripts": {
+    "test": "playwright test",
+    "test:api": "playwright test --project=api",
+    "test:ui": "playwright test --project=ui-chromium",
+    "test:report": "playwright show-report"
+  },
+  "keywords": [
+    "playwright",
+    "typescript",
+    "api-testing",
+    "ui-automation",
+    "clean-code",
+    "pom"
+  ],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "axios": "^1.7.9",
+    "dotenv": "^16.4.7"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.50.0",
+    "@types/node": "^22.13.0"
+  }
+}
